@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="The official website of Goldy Mariz Lunesa">
+  <meta name="author" content="Goldy Mariz Lunesa">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>gmlunesa</title>
+  <link rel="stylesheet" href="static/style.css">
+  <link rel="shortcut icon" href="static/icon.ico"> <!-- Icon was made by FreePik -->
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <nav class="navbar">
+    <div id="menu" class="menu">
+      <a class="sitename" href="#home">GMLUNESA</a>
+      <a class="show" href="#menu">Menu</a><a class="hide" href="#hidemenu">MENU</a>
+      <ul class="nav">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#portfolio">PORTFOLIO</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+    </ul>
+    </div>
+  </nav>
+  <section class="content" id="home">
+    <div class="description">    
+      <h1>Goldy Mariz Lunesa</h1>
+      <p class="intro">software developer and Baratheon supporter</p>
+    </div>
+  </section>
+
+  <section class="portfolio" id="portfolio">
+    <h1>Projects</h1>
+    <p>Some source codes are available on <a href="https://github.com/gmlunesa">Github</a></p>
+        <div class="gallery">
+      <a target="_blank" href="https://github.com/gmlunesa">
+        <img src="static/jnj.png" alt="JNJ" width="300" height="200">
+      </a>
+      <div class="desc">JNJ Prints</div>
+    </div>
+
+
+    <div class="gallery">
+      <a target="_blank" href="https://github.com/gmlunesa">
+        <img src="static/tutore.jpg" alt="TutoreCo" width="300" height="200">
+      </a>
+      <div class="desc">TutoreCo</div>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="https://github.com/gmlunesa">
+        <img src="static/recyclopedia.jpg" alt="Recyclopedia" width="300" height="200">
+      </a>
+      <div class="desc">Recyclopedia</div>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="https://github.com/gmlunesa">
+        <img src="static/translator.jpg" alt="176 Translator" width="300" height="200">
+      </a>
+      <div class="desc">176 Translator</div>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="https://github.com/gmlunesa">
+        <img src="static/sakay.png" alt="Sakay Na Bai" width="300" height="200">
+      </a>
+      <div class="desc">Sakay na Bai</div>
+    </div>
+
+  </section>
+
+  <section class="about" id="about">
+
+    <div class="aboutcontent"> 
+      <h1>About</h1>
+      <p class = "abouttext">Hello! I am Goldy Mariz Lunesa, 19, from Cebu City, Philippines! I am a 3rd year Computer Science student from the University of the Philippines Cebu. I love reading, binge watching anime and tv series, cooking, and cleaning. One of my life goals is to someday visit the outer space, if not become an astronaut! I want to try out a lot of things, I'm looking into learning how to swim (for future beach trips), as well as learn how to knit (for future cute sweaters and beanies). I am a huuuuuge animal lover, and I want to pet almost all cutie animals I see! Adopting/rescuing a doggo or a cate is one of my goals someday too. In terms of programming stuff, I'm looking into learning C#, Python and the MEAN fullstack. I like being by myself most of the time, with the comfort of my bed, but I am always open to making new friends! If you are interested in hiring me or just becoming my friend ;_; please drop me a <a href="#contact">message</a>!
+      <br /> 
+      <br />  
+      <strong><a href="http://bit.ly/lunesaresume">RESUME</a></strong><a href="http://bit.ly/lunesaresume"></a>
+      </p>
+    </div> 
+
+  </section>
+
+  <section class="contactform" id="contact">
+
+    <div class=""> 
+      <h1>Contact Me</h1>
+
+      {{ success }}
+
+      <form class="form-group" action="/message" method="POST">
+
+        <label for="name">NAME</label>
+        <input type="text" id="name"  name="name">
+
+        <label for="name">EMAIL</label>
+        <input type="email" id="name" name="email">
+
+        <label for="number">PHONE NUMBER</label>
+        <input type="number" id="number" name="number">
+
+        <label for="message">MESSAGE</label>
+        <textarea id="message" name="message"></textarea>
+
+
+
+        <button>SEND</button>
+
+      </form>
+      <br /> 
+      <br /> 
+    </div> 
+
+  </section>
+
+  <footer>
+    <div class="icons">
+      <a href="https://facebook.com/goldy.mariz"><i class="fa fa-facebook-official"></i></a>
+      <a href="https://plus.google.com/117594233805162390468"><i class="fa fa-google-plus-official"></i></a>
+      <a href="https://github.com/gmlunesa"><i class="fa fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/goldy-mariz-lunesa-b98386a7/"><i class="fa fa-linkedin-square"></i></a>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="static/bootstrap.js"></script>
+
+
+</body>
+</html>

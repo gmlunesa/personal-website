@@ -1,0 +1,29 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "personal website for Goldy Mariz Lunesa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://webeng.arnellebalane.com/gmlunesa/personal-website.git"
+  },
+  "author": "Goldy Mariz Lunesa",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "consolidate": "^0.14.5",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.2",
+    "express-flash": "0.0.2",
+    "express-session": "^1.15.3",
+    "nunjucks": "^3.0.0",
+    "path": "^0.12.7",
+    "pg": "^6.2.3",
+    "req-flash": "0.0.3",
+    "sequelize": "^3.30.4",
+    "session": "^0.1.0"
+  }
+}

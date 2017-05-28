@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="The official website of Goldy Mariz Lunesa">
+  <meta name="author" content="Goldy Mariz Lunesa">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>gmlunesa</title>
+  <link rel="stylesheet" href="static/style.css">
+  <link rel="shortcut icon" href="static/icon.ico"> <!-- Icon was made by FreePik -->
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <nav class="navbar">
+    <div id="menu" class="menu">
+      <a class="sitename">GMLUNESA</a>
+      <a class="show" href="#menu">Menu</a><a class="hide" href="#hidemenu">MENU</a>
+    </div>
+
+  <section class="portfolio">
+    <h1>Messages</h1>
+    {% for message in messages %}
+      <div class="box">
+        <div class="messagedesc">
+          <strong>Sender: </strong>{{message.name}} <br />
+          <strong>Email: </strong>{{message.email}} <br />
+          <strong>Number: </strong>{{message.number}} <br />
+          <strong>Message: </strong>{{message.body}} <br />
+        </div>
+
+      </div>
+    {% endfor %}
+  </section>
+
+  <footer>
+    <div class="icons">
+      <a href="https://facebook.com"><i class="fa fa-facebook-official"></i></a>
+      <a href="https://google.com"><i class="fa fa-google-plus-official"></i></a>
+      <a href="https://google.com"><i class="fa fa-github"></i></a>
+      <a href="https://linkedin.com"><i class="fa fa-linkedin-square"></i></a>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+
+</body>
+</html>
