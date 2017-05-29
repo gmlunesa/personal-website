@@ -2,9 +2,9 @@ This is my personal website, featuring a mauve color scheme, built from scratch.
 
 **Stuff Used**:
 
-- *Database:* PostgreSQL
-- *Web server:* NodeJS
-- *Middleware:* ExpressJS
-- *Templating Engine:* Nunjucks
+- **Database:** PostgreSQL
+- **Web server:** NodeJS
+- **Middleware:** ExpressJS
+- **Templating Engine:** Nunjucks
 
 
